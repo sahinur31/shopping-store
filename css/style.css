@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #f1f1f1 !important;
 }
 .search-field {
   border: none;
@@ -38,6 +39,7 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  min-height: 450px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
